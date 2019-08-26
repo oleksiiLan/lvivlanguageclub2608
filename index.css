@@ -1,0 +1,30 @@
+/*nav {
+	float: right;
+    }
+#aboutus {
+	font-size: 30px;
+	height:350px;
+	margin: 1px 1px 1px 1px;
+	padding: 30px;
+    }
+
+#clubs {
+	border-top-style: solid;
+	line-height: 1.5;
+	padding: 30px;
+    }
+
+#contacts {
+	border-top-style: solid;
+	line-height: 1.5;
+	padding: 30px;
+    }*/
+.img {
+    float: right;
+    margin: 0 0 1em 1em;
+    }
+header{
+	height:70px;
+	margin: 1px 1px 1px 1px;
+	padding: 20px 1px 1px 1px;
+}
