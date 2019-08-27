@@ -1,11 +1,7 @@
 @media screen and (max-width: 600px)
-body {
-	background: rgba(161, 187, 240, 0.24)
-
-}
+#nob{}
 
 header img {
-
     float: left;
     width: 50%;
     height: 35%;
@@ -28,7 +24,7 @@ main {
         border-radius: 20px 20px;
         width: 100%;
         text-align: center;
-        background-color: rgb(159, 159, 245);
+        background-color: rgb(255, 255, 255);
       }
 #navbar li { display: inline; }
 #navbar a {
@@ -39,11 +35,11 @@ main {
         display: inline-block;
         width: 30%;
         text-align: center;
-       font: normal 24px arial;
+        font: normal 24px arial;
       }
 #navbar a:hover {
         border-radius: 20px 20px;
-        background-color: rgb(222, 231, 166);
+        background-color: rgb(119, 133, 255);
       }
 #buttons {
        margin: 7px;
@@ -51,9 +47,27 @@ main {
        width: 260px;
        height: 20%;
        border-radius: 20px 20px;
-       background-color: rgb(124, 166, 228);
+       background-color: rgb(119, 133, 255);
        text-align: center;
        font: normal 24px arial;
 }
-#mail {text-align: center;
-       font: normal 24px arial;}
+#mail {
+       text-align: center;
+       font: normal 24px arial;
+}
+h3 {
+       text-align : center;
+       font: normal 32px arial;
+}
+#man {
+	margin: 10px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+#footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #39b54a; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
